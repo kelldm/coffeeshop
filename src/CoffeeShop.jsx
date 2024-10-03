@@ -69,6 +69,7 @@ const Nav = styled.nav`
 const NavLink = styled.a`
   margin: 0 15px;
   cursor: pointer;
+  padding:0.5rem;
   color: ${({ darkMode }) => (darkMode ? "#fff" : "#fc8803")};
   &:hover {
     color: ${({ darkMode }) => (darkMode ? "#ddd" : "#fc8803")};
